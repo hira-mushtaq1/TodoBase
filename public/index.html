@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>TODOBASE</title>
+</head>
+<body class="bg-dark text-white custom">
+    
+
+    <div class="container">
+        <div class="d-flex justify-content-end">
+          <button onclick="logOut()" class="btn btn-danger px-4 fs-3 fw-bold py-2">Logout</button>
+        </div>
+    </div>
+  
+      <br><br> 
+    <div class="todobox text-center my-4">
+        <h2 class="text">Your TODO HERE</h2>
+        <div class="d-flex justify-content-center"><input type="text" placeholder="New Todo" name="" id="inp" class="px-2 py-4">
+            <button class="add bg-warning px-3" onclick="add()">ADD</button>
+            </div>
+       
+        <ol id="parent"></ol>
+       
+       </div>
+
+
+
+    <script type="module" src="app.js"></script>
+    <script type="module" src="auth.js"></script>
+</body>
+</html>

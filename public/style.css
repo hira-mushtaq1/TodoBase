@@ -1,0 +1,14 @@
+
+.taskbox{
+    background-color:bisque;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+    width: calc(65% - 50px);
+}
+.text{
+    color:yellow;
+}
